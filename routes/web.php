@@ -8,3 +8,4 @@ Route::get('/', [PostController::class, 'index'])->name('home');
 Route::get('posts/{post:slug}', [PostController::class, 'show']);
 
 //Route::get('/', [PostController::class, 'index'])->name('home');
+//moco
