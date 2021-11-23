@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-bar {
+    display: flex;
+    list-style: none;
+    background-color: aqua;
+    width: 100%;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.slot {
+    height: 86vh;
+    padding: 30px;
+}
+
+.footer {
+    margin: auto;
+    background-color: aquamarine;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
